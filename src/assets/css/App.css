@@ -1,0 +1,49 @@
+.btn-history {
+  float: right !important;
+}
+
+.ant-menu-horizontal {
+  line-height: 70px !important;
+  background-color: darkgrey;
+}
+
+.ant-menu-item h2,h3 {
+  color: white;
+}
+
+.ant-menu-item, .ant-menu-submenu-title {
+  padding: 0 80px; 
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected {
+  border: none;
+}
+
+.movies-container {
+  margin: 60px 0 80px 60px;
+  overflow: scroll;
+  width: 100%;
+}
+
+.cart-container {
+  width: 250px;
+  margin: 10px;
+}
+
+.cart-container img {
+  height: 350px;
+  width: 100%;
+}
+
+.cart-container p {
+  text-align: center;
+  font-family: Crimson Text;
+  font-size: 20px;
+  font-style: italic;
+
+}
+
+.ant-col-4 {
+  width: 252px;
+}
+

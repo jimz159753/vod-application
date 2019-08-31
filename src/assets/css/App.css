@@ -1,14 +1,21 @@
+body {
+  background-color: ghostwhite;
+}
+
 .btn-history {
   float: right !important;
 }
 
 .ant-menu-horizontal {
   line-height: 70px !important;
-  background-color: darkgrey;
+  background-color: black;
+  padding-top: 10px;
 }
 
-.ant-menu-item h2,h3 {
+.ant-menu-item h1,h2 {
   color: white;
+  font-family: Crimson Text;
+  padding-top: 10px;
 }
 
 .ant-menu-item, .ant-menu-submenu-title {
@@ -19,31 +26,65 @@
   border: none;
 }
 
-.movies-container {
-  margin: 60px 0 80px 60px;
-  overflow: scroll;
-  width: 100%;
-}
-
-.cart-container {
-  width: 250px;
-  margin: 10px;
-}
-
-.cart-container img {
-  height: 350px;
-  width: 100%;
-}
-
-.cart-container p {
+.ant-card-meta-title {
   text-align: center;
   font-family: Crimson Text;
   font-size: 20px;
   font-style: italic;
-
 }
 
 .ant-col-4 {
   width: 252px;
 }
 
+.arrow {
+  width: 106px;
+  height: 350px;
+  background-color: currentColor;
+  position: absolute;
+  right: 0;
+  top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow i {
+  color: white;
+  font-size: 45px;
+}
+
+.arrow i:hover {
+  transition-duration: 2s;
+  transform: scale(1,3)
+}
+
+.ant-menu-item-active {
+  border: none;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-carousel {
+  width: 99%;
+}
+
+.ant-carousel .slick-slide {
+  height: 450px;
+  margin: 60px 10px 60px 10px;
+  overflow-x: auto;
+  white-space:nowrap;
+  
+}
+
+.ant-card-cover {
+  height: 367px;
+}
+
+.ant-card-bordered {
+  display: inline-block;
+}

@@ -59,7 +59,7 @@ class App extends Component {
   };
 
   onKeyRight(keyName, e, handle) {
-    console.log("test:onKeyUp", keyName, e, handle)
+    console.log("test:onKeyUpaaaaa  ", keyName, e, handle)
     
   }
   onKeyDown(keyName, e, handle) {

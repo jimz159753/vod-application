@@ -88,3 +88,14 @@ body {
 .ant-card-bordered {
   display: inline-block;
 }
+
+.ant-list-item {
+  text-align: center;
+  font-family: Crimson Text;
+  font-size: 18px;
+}
+
+.btn-modal {
+  height: 35px;
+  font-weight: bold;
+}

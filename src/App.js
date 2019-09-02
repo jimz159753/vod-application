@@ -58,7 +58,7 @@ class App extends Component {
     });
   };
 
-  onKeyRight(keyName, e, handle) {
+  onKeyUp(keyName, e, handle) {
     console.log("test:onKeyUp", keyName, e, handle)
     
   }
@@ -87,7 +87,7 @@ class App extends Component {
       <Hotkeys
       keyName="command+left,command+right" 
       onKeyDown={this.onKeyDown.bind(this)}
-      nKeyRight={this.onKeyRight.bind(this)}>
+      nKeyUp={this.onKeyUp.bind(this)}>
         <div>
           <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">
             <Item>

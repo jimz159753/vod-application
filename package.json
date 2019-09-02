@@ -2,6 +2,10 @@
   "name": "vod-application",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.6.0",
+    "npm": "6.9.0"
+  },
   "dependencies": {
     "antd": "^3.22.2",
     "local-storage": "^2.0.0",

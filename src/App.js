@@ -37,7 +37,11 @@ class App extends Component {
     fetch('https://demo2697834.mockable.io/movies')
     .then(response => response.json())
     .then(data => this.setState({data}));
-    ls('history', history);
+    if(ls('history').length > 0){
+      return;
+    }else{
+      ls('history', history);
+    }
   }
 
   openModal(movie) {
